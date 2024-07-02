@@ -2,11 +2,11 @@
 <html lang="fr">
 <head>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./assets/style.min.css">
-    <link rel="stylesheet" href="./assets/bootstrap/bootstrap.min.css">
-	<link rel="preconnect" href="https://fonts.googleapis.com">
-	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link href="./assets/googlesheet.min.css" rel="stylesheet">
+    <link rel="preload" href="./assets/style.min.css" as="style">
+    <link rel="preload" href="./assets/bootstrap/bootstrap.min.css" as="style">
+	<link rel="preload" href="https://fonts.googleapis.com" as="style">
+	<link rel="preload" href="https://fonts.gstatic.com" crossorigin as="style">
+	<link href="./assets/googlesheet.min.css" rel="preload" as="style">
 	<meta charset="UTF-8">
 	<title>Photographie Shooting Albums Retouches</title>
 	<meta name="description" 
@@ -24,7 +24,10 @@
 	<meta http-equiv="X-Content-Type-Options" content="nosniff">
 	<meta name="keywords" content="photographe, photographie, portrait, mariage, événement, studio photo, photographie de famille, photographe professionnel, séance photo, photographie artistique, photographie commerciale, photographie de mode, photographie de produits, photo de paysage, photographie d'intérieur, photographie de voyage, retouche photo, album photo, photographe de mariage, photographe de portrait, photographe de mode, book photo, photographie corporate, photographie de nouveau-né, photographie d'enfants, photographie culinaire, photographie d'architecture, reportage photo, photographe freelance, photojournalisme, photographe événementiel">
     <meta name="robots" content="index, follow">
+	<script rel="preload" src="./assets/bootstrap/bootstrap.bundle.min.js" as="script" async></script>
+<script rel="preload" src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous" as="script"></script>
 </head>
+
 <body>
 <div class="top-header">
 	<h3 class="name">Nina Carducci</h3>
@@ -166,8 +169,6 @@
 		</div>
 	</div>
 </div>
-<script src="./assets/bootstrap/bootstrap.bundle.min.js" async></script>
-<script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous" ></script>
 <script src="./assets/maugallery.min.js" defer></script>
 <script src="./assets/scripts.js" defer></script>
 </body>
