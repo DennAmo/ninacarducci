@@ -51,6 +51,7 @@ principal header change:
     -balises h1,h2,h3 fix
     -Label formulaire fix
     -defer et async sur certains script, d'autres sont critique et bloqueront le chargement de la page
+    -script déplacé en bas de page
     
     CSS:
     -photo de nina carducci, width réduite en max-width 660px + object fit sur le slider
