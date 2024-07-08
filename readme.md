@@ -42,6 +42,8 @@ principal header change:
 
 
     principal other change:
+    
+ ```
     HTML:
     -conversion .webp
     -loading="lazy"
@@ -54,3 +56,4 @@ principal header change:
     -photo de nina carducci, width réduite en max-width 660px + object fit sur le slider
     -Modification de la couleur du texte actif de gallery
 
+ ```
