@@ -52,6 +52,7 @@ principal head change:
     -Label formulaire fix
     -defer et async sur certains script, d'autres sont critique et bloqueront le chargement de la page
     -script déplacé en bas de page
+    -ajout favicon
     
     CSS:
     -photo de nina carducci, width réduite en max-width 660px + object fit sur le slider
