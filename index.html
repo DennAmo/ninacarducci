@@ -8,9 +8,9 @@
 	<link rel="preload" href="./assets/bootstrap/bootstrap.min.css" as="style">
 	<link rel="preload" href="https://code.jquery.com/jquery-3.4.1.min.js" as="script"
 		integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous">
-	<link rel="stylesheet" href="./assets/bootstrap/bootstrap.min.css" async>
-	<link href="./assets/googlesheet.min.css" rel="stylesheet" defer>
-	<link href="./assets/style.min.css" rel="stylesheet" defer>
+	<link rel="stylesheet" href="./assets/bootstrap/bootstrap.min.css" >
+	<link href="./assets/googlesheet.min.css" rel="stylesheet" >
+	<link href="./assets/style.min.css" rel="stylesheet" >
 
 	<!-- meta SEO-->
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -25,7 +25,7 @@
 	<!-- CSP -->
 	<meta http-equiv="Content-Security-Policy" content="
 			default-src 'self';
-			script-src 'self' https://code.jquery.com unsafe-eval;
+			script-src 'self' https://code.jquery.com 'unsafe-eval';
 			style-src 'self' https://fonts.gstatic.com https://fonts.googleapis.com 'unsafe-inline';
 			img-src 'self' data:;
 			font-src 'self' https://fonts.gstatic.com;
@@ -99,7 +99,7 @@
 				<li><a href="#services">Service</a></li>
 				<li><a href="#contact">Contact</a></li>
 				<li><a class="social-link" href="https://www.instagram.com/ninacarducci.photo/?hl=fr">
-						<img src="assets/images/instagram.png" alt="Insta" target="_blank" rel="noreferrer"></a></li>
+						<img src="assets/images/instagram.png" alt="Insta" rel="noopener"></a></li>
 			</ul>
 		</div>
 	</div>
@@ -276,7 +276,7 @@
 			<div class="form-container">
 				<h2>Une question ? Une demande de devis ?</h2>
 				<p> N’hésitez pas à m’écrire ! Je vous répondrais en moins de 24 heures</p>
-				<form action="" method="post">
+				<form action="#" method="post">
 					<label>Nom
 						<input type="text" name="nom" id="nom">
 					</label>
