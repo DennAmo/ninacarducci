@@ -1,4 +1,4 @@
-principal header change:
+principal head change:
 
 ```
 <meta name="robots" content="index, follow">
