@@ -56,7 +56,7 @@ principal head change:
     -formulaire fix
     
     CSS:
-    -photo de nina carducci, width réduite en max-width 660px + object fit sur le slider
+    -photo de nina carducci, width réduite en ' max-width 660px ' + object fit sur le slider
     -Modification de la couleur du texte actif de gallery
 
  ```
