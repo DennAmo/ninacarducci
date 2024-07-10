@@ -50,7 +50,7 @@ principal head change:
     -ajout attribut ALT
     -balises h1,h2,h3 fix
     -Label formulaire fix
-    -defer et async sur certains script, d'autres sont critique et bloqueront le chargement de la page
+    -defer sur certains script, d'autres sont critique et bloqueront le chargement de la page
     -script déplacé en bas de page
     -ajout favicon
     -formulaire fix
